@@ -1,8 +1,10 @@
 # 1. Создать переменную типа String
 item_1 = 'Lena'
+print(type(item_1))
 
 # 2. Создать переменную типа Integer
 item_2 = 25
+print(type(item_2))
 
 # 3. Создать переменную типа Float
 item_3 = 2.5
