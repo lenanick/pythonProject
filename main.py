@@ -11,3 +11,14 @@ items = [item, name, 'Illia', 33, [11,22,"hello"], {'age':30}, True, False, (0,1
 print(len(items))
 
 print(items[4][2])
+
+dict_items = {'age':38,
+              'name': "Lena",
+              'location': {'country':'Ukraine',
+                           'city':'Ivano-Frankivsk'}}
+
+print(type(dict_items), dict_items['location']['city'])
+
+
+
+
