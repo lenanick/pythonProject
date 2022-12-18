@@ -78,6 +78,10 @@ if currency_convertor:
         currency_result = target_currency_amount * usd_uah_rate
         print(target_currency_amount, usd_item, '=', currency_result, uah_item)
 
+    elif target_currency == 'usd':
+        currency_result = target_currency_amount * usd_usd_rate
+        print(target_currency_amount, usd_item, '=', currency_result, usd_item)
+
     elif target_currency == 'chf':
         currency_result = target_currency_amount * usd_chf_rate
         print(target_currency_amount, usd_item, '=', currency_result, chf_item)
