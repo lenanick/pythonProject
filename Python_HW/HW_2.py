@@ -70,7 +70,7 @@ if currency_convertor:
     target_currency_amount = 50
     currency_result = 0
 
-    if target_currency =='eur':
+    if target_currency == 'eur':
         currency_result = target_currency_amount * usd_eur_rate
         print(target_currency_amount, eur_item, '=', currency_result, usd_item)
 
