@@ -28,7 +28,7 @@ usd_byn_rate = 2.46
 if mult_int > comp_item:
     print('Переменная mult_int больше', comp_item)
 
-div_int = int_item/2
+div_int = int_item / 2
 
 if div_int < comp_item:
     print('Переменная div_int меньше', comp_item)
